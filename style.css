@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXmMYjYbDKjdtIF-vPVd9IuD7QY5sSXeYhIGKCMjHUNV7c39nRb7fGI8_z&s=10');
+    background-size:cover;
+    
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+     }
+    h1 {
+        color:yellow;
+        font-size: 45px;
+        font-family: 'Impact';
+        background-color: black;
+    }
+     p{
+        font-size: 15px;
+        color:darkred;
+    }
+    h2{
+        color: white;
+        font-family: 'Impact';
+    }
+    .dividing{
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+    }
+    .clickable-word {
+        cursor: pointer;
+    }
+    p {
+        font-family: 'Impact';
+        color: white;
+        background-color: black;
+        font-size: 35px;
+    }
+}
